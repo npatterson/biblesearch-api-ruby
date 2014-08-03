@@ -1,18 +1,17 @@
 require 'biblesearch-api/client_version'
 
+require 'hashie'
+require 'httparty'
+
 require 'biblesearch-api/endpoints/books'
 require 'biblesearch-api/endpoints/chapters'
 require 'biblesearch-api/endpoints/passages'
 require 'biblesearch-api/endpoints/search'
 require 'biblesearch-api/endpoints/verses'
 require 'biblesearch-api/endpoints/versions'
-
-require 'hashie'
-require 'httparty'
+require 'biblesearch-api/core_ext/hash'
 
 directory = File.expand_path(File.dirname(__FILE__))
-
-Hash.send :include, Hashie::HashExtensions
 
 class BibleSearchError < StandardError
   attr_reader :data
