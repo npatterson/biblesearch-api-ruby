@@ -11,8 +11,6 @@ require 'biblesearch-api/endpoints/verses'
 require 'biblesearch-api/endpoints/versions'
 require 'biblesearch-api/core_ext/hash'
 
-directory = File.expand_path(File.dirname(__FILE__))
-
 class BibleSearchError < StandardError
   attr_reader :data
 
@@ -32,7 +30,6 @@ class BibleSearch
   include Verses
   include Versions
 
-  no_follow = true
   format :json
 
   attr_accessor :api_key

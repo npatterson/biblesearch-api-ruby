@@ -33,7 +33,7 @@ http_interactions:
         20:57:33 GMT; path=/; domain=.bibles.org
     body:
       encoding: US-ASCII
-      string: ! '{"response":{"verses":[{"auditid":"0","verse":"34","lastverse":"34","id":"eng-GNTD:Acts.8.34","osis_end":"eng-GNTD:Acts.8.34","label":"","reference":"Acts
+      string: '{"response":{"verses":[{"auditid":"0","verse":"34","lastverse":"34","id":"eng-GNTD:Acts.8.34","osis_end":"eng-GNTD:Acts.8.34","label":"","reference":"Acts
         8:34","text":"<p class=\"p\"><sup id=\"Acts.8.34\" class=\"v\">34<\/sup>The
         official asked Philip, \u201cTell me, of whom is the prophet saying this?
         Of himself or of someone else?\u201d<\/p>","parent":{"chapter":{"path":"\/chapters\/eng-GNTD:Acts.8","name":"Acts
@@ -52,4 +52,58 @@ http_interactions:
         \/>"}}}'
     http_version: 
   recorded_at: Tue, 15 Oct 2013 20:57:34 GMT
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/verses/eng-GNTD:Acts.8.34.js
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.7
+      Date:
+      - Sun, 03 Aug 2014 22:02:36 GMT
+      Content-Type:
+      - application/javascript
+      Content-Length:
+      - '1726'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=D1utmrIeM5toAFv0IuwwKvAmH8EAj4u3Ks2QoqRrfdbZ1VgZeZSrvmpbs7dt3pzRqVAJa8zg5x5ori%2FAhb7Wi2tKOjfJFsJKfZbaB%2F9KEM4Do5jnZ3uTbtO9gVhl6Wwd65jCv8%2F4g9HptK%2BqPwLfiw%2Bi2DcdiBtaT5khqE4kxTjwQfK5HkMXb9nlPdcWJp3i1fjmAdNSLDgAaf6RGZOV6H4SSxhPBjxxMm1btTqz7s8pGIyjH0RLzg4ARuX9VrQ7BKjyAtvg4YZkyszZTji%2F%2Bi7U1WgfkrZ79qfkaTB1Qt7ulWqpPma6k6kDEcK4IftfsvWHZYhieAsAxVOipBiRV5OIdXS%2BiN%2FmT5WqXPUsDoSl2rz1yZtiV1blSq6K6sd3;
+        expires=Wed, 31-Jul-2024 22:02:36 GMT; path=/; domain=.bibles.org
+      - abs_session=E7yeeOvCdnYT0vwnXWtFLl7wZq%2FMIlS%2FW42vN4v0mPvYOQBrc9OJZeYcKg%2Bdz%2FEVkIYvRapjQbUNJbIxTW5wa3g9o2dtBQhNx4c7Xp5tjNqaHQDD7wBWeAo7ODS%2F9Xplvu9l7zcakhpxuMPoIX5nXJC%2FAw3byFMfVySVpS3KJlkWUIjNljN234WVmtdyf8QVUpSR31hmqk17kGzEPzZmZCvjQkkJ7KNsWdCaubUvLwrk0cga0rxS20xQJ63J4yY2PCh0q5JehCqBi0ocFucUkjGK2b4Vu8jz%2FLEsDkNbV1A%3D;
+        expires=Wed, 31-Jul-2024 22:02:36 GMT; path=/; domain=.bibles.org
+      - abs_uid=bba30cdc649b6a4752c78f3307fb8bd33aee1ca2; expires=Wed, 31-Jul-2024
+        22:02:36 GMT; path=/; domain=.bibles.org
+      P3p:
+      - CP="IEFIX"
+    body:
+      encoding: UTF-8
+      string: '{"response":{"verses":[{"auditid":"0","verse":"34","lastverse":"34","id":"eng-GNTD:Acts.8.34","osis_end":"eng-GNTD:Acts.8.34","label":"","reference":"Acts
+        8:34","text":"<p class=\"p\"><sup id=\"Acts.8.34\" class=\"v\">34<\/sup>The
+        official asked Philip, \u201cTell me, of whom is the prophet saying this?
+        Of himself or of someone else?\u201d<\/p>","parent":{"chapter":{"path":"\/chapters\/eng-GNTD:Acts.8","name":"Acts
+        8","id":"eng-GNTD:Acts.8"}},"next":{"verse":{"path":"\/verses\/eng-GNTD:Acts.8.35","name":"Acts
+        8:35","id":"eng-GNTD:Acts.8.35"}},"previous":{"verse":{"path":"\/verses\/eng-GNTD:Acts.8.32","name":"Acts
+        8:32","id":"eng-GNTD:Acts.8.32"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"}],"meta":{"fums":"<script>\nvar _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''53deb17c21ae38.33770235'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=53deb17c21ae38.33770235\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/><\/noscript>","fums_tid":"53deb17c21ae38.33770235","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''53deb17c21ae38.33770235'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=53deb17c21ae38.33770235\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/>"}}}'
+    http_version: 
+  recorded_at: Sun, 03 Aug 2014 22:02:36 GMT
 recorded_with: VCR 2.6.0

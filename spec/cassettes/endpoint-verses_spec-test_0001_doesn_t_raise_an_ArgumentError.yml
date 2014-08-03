@@ -33,7 +33,7 @@ http_interactions:
         20:57:34 GMT; path=/; domain=.bibles.org
     body:
       encoding: US-ASCII
-      string: ! '{"response":{"verses":[{"auditid":"0","verse":"1","lastverse":"1","id":"eng-GNTD:Gen.6.1","osis_end":"eng-GNTD:Gen.6.1","label":"","reference":"Genesis
+      string: '{"response":{"verses":[{"auditid":"0","verse":"1","lastverse":"1","id":"eng-GNTD:Gen.6.1","osis_end":"eng-GNTD:Gen.6.1","label":"","reference":"Genesis
         6:1","text":"<h3 class=\"s\">Human Wickedness<\/h3>\n<p class=\"p\"><sup id=\"Gen.6.1\"
         class=\"v\">1<\/sup> When people had spread all over the world, and daughters
         were being born,<\/p>","parent":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.6","name":"Genesis
@@ -383,4 +383,58 @@ http_interactions:
         PjwvaHRtbD4K
     http_version: 
   recorded_at: Tue, 15 Oct 2013 20:57:37 GMT
+- request:
+    method: get
+    uri: http://<%= api_key %>:X@bibles.org/v2/verses/eng-GNTD:GEN.6.z.js
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.7
+      Date:
+      - Sun, 03 Aug 2014 22:02:37 GMT
+      Content-Type:
+      - application/javascript
+      Content-Length:
+      - '1719'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.23
+      Set-Cookie:
+      - abs_session=hFCo8fugam9r381cA3BglARzmBxXry5FPcr4F0lomvKmZHMEc%2BPTU8v2OP2dUvLhf1oSO9w%2FRAwejNuom4db58oAphpXSLJfh07uSNNuCtzZSrt43cH6Ecq3V%2BML%2FGrxEk%2B3qdtUcdFPr6zQG1p4RDXBCksJTrku7rUiKLSQkBO9huQy9BnQJbITiB7PZzBTjZ%2FMLmhIx%2FOeITZBNP02m9jHOdgxd3Zj7f4%2FNIhlmqBR%2FnNPhGjkqP%2Beq%2Fi7lVZWtEY9HZKK%2B2c47K6N2ljUuFHnB4wBpZ8iwzZ4foOzoes%3D;
+        expires=Wed, 31-Jul-2024 22:02:37 GMT; path=/; domain=.bibles.org
+      - abs_session=kOB4DsZWnzaQjgEiWYaOK%2BN%2FBU6z8ub9Apv785GaheGJRNcoRW%2FlfrALidfleTP0gqvKiiOIcIyrTHutSs6nLr9MuNj8AKa4Ofac5z2mOCaUjaIRFGyGdueEccmXbnfLK4C6vIbZmGJxXxMTWiq9eoOaFAd25HuxDEVMW%2BkVz8HpWSHnaUxjpts7W05n9XNYsaEzNXGMtexeJkeoW8l%2FZLPbVkidukH2HYN7F6uyIfaYQu8hUBaEkHpfQ5xWiKpnbBI8aZYUkcZWiBUXVtUt5bKaBmH5n5kUZ9geNTDBxHMyqB2iBYrLvXLdHjioo%2FvfbpCnHI4gRi7kcZjnzRbu45XttwbZnVnJlUFvNOooIoXrDXVuqXSnPg8x1BEa9dZT;
+        expires=Wed, 31-Jul-2024 22:02:37 GMT; path=/; domain=.bibles.org
+      - abs_uid=bbcc4bb139b97a358428696586d40041772f211f; expires=Wed, 31-Jul-2024
+        22:02:37 GMT; path=/; domain=.bibles.org
+      P3p:
+      - CP="IEFIX"
+    body:
+      encoding: UTF-8
+      string: '{"response":{"verses":[{"auditid":"0","verse":"1","lastverse":"1","id":"eng-GNTD:Gen.6.1","osis_end":"eng-GNTD:Gen.6.1","label":"","reference":"Genesis
+        6:1","text":"<h3 class=\"s\">Human Wickedness<\/h3>\n<p class=\"p\"><sup id=\"Gen.6.1\"
+        class=\"v\">1<\/sup> When people had spread all over the world, and daughters
+        were being born,<\/p>","parent":{"chapter":{"path":"\/chapters\/eng-GNTD:Gen.6","name":"Genesis
+        6","id":"eng-GNTD:Gen.6"}},"next":{"verse":{"path":"\/verses\/eng-GNTD:Gen.6.2","name":"Genesis
+        6:2","id":"eng-GNTD:Gen.6.2"}},"previous":{"verse":{"path":"\/verses\/eng-GNTD:Gen.5.32","name":"Genesis
+        5:32","id":"eng-GNTD:Gen.5.32"}},"copyright":"<p>Good News Translation (Today&#8217;s
+        English Version, Second Edition) &#169; 1992 American Bible Society. All rights
+        reserved.<\/p>"}],"meta":{"fums":"<script>\nvar _BAPI=_BAPI||{};\nif(typeof(_BAPI.t)===''undefined''){\ndocument.write(''\\x3Cscript
+        src=\"''+document.location.protocol+''\/\/d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js\"\\x3E\\x3C\/script\\x3E'');}\ndocument.write(\"\\x3Cscript\\x3E_BAPI.t(''53deb17d1e28a2.09901191'');\\x3C\/script\\x3E\");\n<\/script><noscript><img
+        src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=53deb17d1e28a2.09901191\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/><\/noscript>","fums_tid":"53deb17d1e28a2.09901191","fums_js_include":"d2ue49q0mum86x.cloudfront.net\/include\/fums.c.js","fums_js":"var
+        _BAPI=_BAPI||{};if(typeof(_BAPI.t)!=''undefined''){ _BAPI.t(''53deb17d1e28a2.09901191'');
+        }","fums_noscript":"<img src=\"https:\/\/d3a2okcloueqyx.cloudfront.net\/nf1?t=53deb17d1e28a2.09901191\"
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"height: 0; width: 0;\"
+        \/>"}}}'
+    http_version: 
+  recorded_at: Sun, 03 Aug 2014 22:02:37 GMT
 recorded_with: VCR 2.6.0
